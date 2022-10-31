@@ -11,6 +11,7 @@ body {
 	color: white;
 	font-size: 16px;
 	font-family: 'Do Hyeon', sans-serif;
+	max-width: 1900px;
 }
 
 h1, h2, h3 {
@@ -23,6 +24,7 @@ h1 {
 
 h2 {
 	font-size: 1.75em;
+	padding: 20px;
 }
 
 h3 {
@@ -30,11 +32,13 @@ h3 {
 }
 
 p {
-
+		
 }
 
 .album-art {
-
+	float: left;
+	max-width: 150px;
+	height: auto;
 }
 
 .clear {
@@ -42,29 +46,42 @@ p {
 }
 
 .image-electronics, .image-stage-effects {
-	
+	float: left;
 }
 
 .record-label {
-
+	color: red;
+	font-style: italic;
 }
 
 .track-list {
-
+	
 }
 
 #about-photo {
-
+	float: left;
+	max-width: 440px;
+	height: auto;
+	padding: 18px;
+	margin: 0 18px 40px 40px;
+	border: 3px double red;
 }
 
 #copyright {
-
+	color: red;
+	font-size: small;
 }
 
 #section-about, #section-discography, #section-equipment {
-
+	border: 3px double red;
+	margin: 20px;
 }
 
 #text-intro {
-	
+	background-color: #333333;
+	color: red;
+	font-size: 20px;
+	padding: 24px 24px;
+	border: 3px solid red;
+	margin: 20px;
 }
